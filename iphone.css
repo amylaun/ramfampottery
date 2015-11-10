@@ -1,0 +1,212 @@
+@charset "UTF-8";
+<style type="text/css">
+
+body {
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #FFF;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px; 
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	color:#FFF;
+}
+
+.info_text a {
+	font-size:15px!important;
+}
+
+a {
+	font-size:15px;
+}
+
+a img { 
+	border: none;
+}
+
+a:link {
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-size:15px;
+	color: #FFF;
+	text-decoration: underline;
+	letter-spacing:1px;
+}
+
+a:visited {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+a:hover, a:active, a:focus {
+	color: #BF732A;
+	text-decoration: none;
+}
+
+.active{
+	color: #BF732A!important;
+}
+
+.orlink{
+	color:#BF732A!important;
+	text-decoration:none;
+}
+
+
+/* ~~ this fixed width container surrounds the other divs ~~ */
+.container {
+	width: 860px;
+	background-color: #2E1B1E;
+	min-height:500px;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+
+.containermain {
+	padding-bottom: 200px; /* the auto value on the sides, coupled with the width, centers the layout */
+	width: 860px;
+	background-color: #2E1B1E;
+	min-height:500px;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+
+.header {
+	background-color: #2E1B1E;
+	background-image:url(images/header_kiln.jpg);
+	height:119px;
+}
+
+/* ~~ This is the layout information. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+*/
+
+.steps {
+	margin:auto;
+	width:90%;
+	text-align:center;
+	color:#FFF;
+	margin-top:15px;
+}
+
+.steps a {
+	font: 100% "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:11px;
+	letter-spacing:1px;
+	text-decoration: none;
+	padding:11px;
+}
+
+.steps a:active {
+	color: #BF732A;
+}
+
+.content {
+	padding: 11px 0;
+}
+
+.content {
+	padding: 10px 0px 600px 0px!important;
+}
+
+.contentmain {
+	padding: 10px 0px 600px 0px!important;
+}
+
+/* ~~ The footer ~~ */
+.footer {
+	padding: 11px 0;
+	background-color: #CCC49F;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	width:230px;
+	text-align:right;
+}
+
+.fltrt2 {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	width:100%;
+	text-align:left;
+}
+
+.fltrt p{
+	 font-size:15px!important;
+	 line-height:20px!important;
+}
+
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	width:300px;
+	margin-left: 0px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+#galleria{ 
+	width: 700px;
+	height: 550px;
+	margin: auto;
+	background-color:transparent;
+}
+
+.galleria-container {
+	background-color:transparent;
+}
+
+.galleria-thumbnails-container {
+	width: 500px;
+}
+
+.galleria-counter {
+	color: transparent;
+}
+
+.galleria-thumbnails {
+	margin:auto;
+}
+
+/* ABOUT */
+
+.info_text{
+	width:auto;
+	margin:auto;
+	margin-top:30px;
+	padding:0px 70px;
+	margin-bottom:100px;
+	}
+
+.info_text p{
+	font-size:15px;
+	line-height:24px;
+	font-weight:lighter;
+	margin:auto;
+	padding-right:0px;
+}
+
+.left{
+	float:left;
+	padding-right:25px;
+}
+
+</style>/* CSS Document */
+
+
